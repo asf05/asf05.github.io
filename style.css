@@ -1,4 +1,4 @@
-main{
+#main{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right:10px;
@@ -6,3 +6,8 @@ main{
     margin: 12px auto;
     max-width: 800px;
     }
+
+#sub{
+    margin: 0 auto;
+    width: 80%;
+}
