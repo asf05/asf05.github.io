@@ -1,4 +1,4 @@
-h1{
+#main{
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right:10px;
@@ -7,7 +7,7 @@ h1{
     max-width: 800px;
     }
 
-p{
+#sub{
     margin: 0 auto;
     width: 80%;
 }
