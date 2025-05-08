@@ -1,3 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 #main{
     padding-bottom: 10px;
     padding-left: 15px;
@@ -5,9 +14,11 @@
     padding-top:10px;
     margin: 12px auto;
     max-width: 800px;
-    }
+    text-align: center;
+}
 
 #sub{
     margin: 0 auto;
     width: 80%;
+    text-align: center;
 }
