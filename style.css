@@ -27,13 +27,13 @@ body {
 
 #hab {
     position: relative;
-    padding-right: 30px;
+    padding-left: 30px;
 }
 
-#hab::after {
+#hab::before {
     content: '';
     position: absolute;
-    right: 0;
+    left: 0;
     top: 50%;
     transform: translateY(-50%);
     width: 20px;
