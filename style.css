@@ -24,3 +24,20 @@ body {
     width: 80%;
     text-align: center;
 }
+
+#hab {
+    position: relative;
+    padding-right: 30px;
+}
+
+#hab::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid #999;
+}
